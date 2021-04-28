@@ -1,10 +1,11 @@
 <template>
   <div id="app">
-    <div @click="gotToPage('../mpa-one/detail/index.html')">mpa-one/detail/index.html</div>
-    <div @click="gotToPage('../mpa-one/list/index.html')">mpa-one/list/index.html</div>
-    <div @click="gotToPage('../mpa-two/detail/index.html')">mpa-two/detail/index.html</div>
-    <div @click="gotToPage('../mpa-two/list/index.html')">mpa-two/list/index.html</div>
-    <div @click="gotToPage('../spa-one/index/index.html')">spa-one/index/index.html</div>
+    <div @click="gotToPage('../0-home.html')">0-home.html</div>
+    <div @click="gotToPage('../1-detail.html')">1-detail.html</div>
+    <div @click="gotToPage('../2-list.html')">2-list.html</div>
+    <div @click="gotToPage('../3-detail.html')">3-detail.html</div>
+    <div @click="gotToPage('../4-list.html')">4-list.html</div>
+    <div @click="gotToPage('../5-spa-one.html')">5-spa-one.html</div>
   </div>
   
 </template>
